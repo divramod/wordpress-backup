@@ -1,6 +1,6 @@
 FROM ubuntu
 
-MAINTAINER Angelo Veltens <angelo.veltens@online.de>
+MAINTAINER Arvid Petermann <divramod@gmail.com>
 
 RUN apt-get update && \
     apt-get install mysql-client cron bzip2 -y && \
